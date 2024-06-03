@@ -1,0 +1,22 @@
+[3.542s] Invoking command in '/home/holberton/ros2_ws/src/test_publisher': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_publisher build --build-base /home/holberton/ros2_ws/build/test_publisher/build install --record /home/holberton/ros2_ws/build/test_publisher/install.log --single-version-externally-managed install_data
+[3.893s] running egg_info
+[3.893s] writing ../../build/test_publisher/test_publisher.egg-info/PKG-INFO
+[3.899s] writing dependency_links to ../../build/test_publisher/test_publisher.egg-info/dependency_links.txt
+[3.900s] writing entry points to ../../build/test_publisher/test_publisher.egg-info/entry_points.txt
+[3.900s] writing requirements to ../../build/test_publisher/test_publisher.egg-info/requires.txt
+[3.900s] writing top-level names to ../../build/test_publisher/test_publisher.egg-info/top_level.txt
+[3.905s] reading manifest file '../../build/test_publisher/test_publisher.egg-info/SOURCES.txt'
+[3.930s] writing manifest file '../../build/test_publisher/test_publisher.egg-info/SOURCES.txt'
+[3.931s] running build
+[3.932s] running build_py
+[3.941s] running install
+[3.942s] running install_lib
+[3.962s] running install_data
+[3.963s] running install_egg_info
+[3.971s] removing '/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[3.972s] Copying ../../build/test_publisher/test_publisher.egg-info to /home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test_publisher-0.0.0-py3.10.egg-info
+[4.045s] running install_scripts
+[4.134s] Installing goal_location script to /home/holberton/ros2_ws/install/test_publisher/lib/test_publisher
+[4.135s] Installing move_robot script to /home/holberton/ros2_ws/install/test_publisher/lib/test_publisher
+[4.136s] writing list of installed files to '/home/holberton/ros2_ws/build/test_publisher/install.log'
+[4.272s] Invoked command in '/home/holberton/ros2_ws/src/test_publisher' returned '0': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_publisher build --build-base /home/holberton/ros2_ws/build/test_publisher/build install --record /home/holberton/ros2_ws/build/test_publisher/install.log --single-version-externally-managed install_data

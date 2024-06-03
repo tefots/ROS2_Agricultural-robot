@@ -1,0 +1,7 @@
+[  3%] Built target parc_robot_interfaces__cpp
+[ 12%] Built target parc_robot_interfaces__rosidl_generator_c
+[ 22%] Built target parc_robot_interfaces__rosidl_typesupport_introspection_cpp
+[ 32%] Built target parc_robot_interfaces__rosidl_typesupport_fastrtps_c
+[ 41%] Built target parc_robot_interfaces__rosidl_typesupport_cpp
+[ 51%] Built target parc_robot_interfaces__rosidl_typesupport_introspection_c
+[ 61%] Built target parc_robot_interfaces__rosidl_typesupport_fastrtps_cpp

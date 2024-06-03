@@ -1,0 +1,21 @@
+[4.213s] Invoking command in '/home/holberton/ros2_ws/build/test_publisher': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/holberton/ros2_ws/build/test_publisher/build --no-deps symlink_data --force
+[5.907s] running develop
+[5.926s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.927s]   warnings.warn(
+[6.798s] running egg_info
+[6.798s] writing test_publisher.egg-info/PKG-INFO
+[6.798s] writing dependency_links to test_publisher.egg-info/dependency_links.txt
+[6.799s] writing entry points to test_publisher.egg-info/entry_points.txt
+[6.799s] writing requirements to test_publisher.egg-info/requires.txt
+[6.799s] writing top-level names to test_publisher.egg-info/top_level.txt
+[6.807s] reading manifest file 'test_publisher.egg-info/SOURCES.txt'
+[6.811s] writing manifest file 'test_publisher.egg-info/SOURCES.txt'
+[6.818s] running build_ext
+[6.818s] Creating /home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test-publisher.egg-link (link to .)
+[6.822s] Installing move_robot script to /home/holberton/ros2_ws/install/test_publisher/lib/test_publisher
+[6.823s] 
+[6.823s] Installed /home/holberton/ros2_ws/build/test_publisher
+[6.824s] running symlink_data
+[6.824s] symbolically linking /home/holberton/ros2_ws/build/test_publisher/resource/test_publisher -> /home/holberton/ros2_ws/install/test_publisher/share/ament_index/resource_index/packages
+[6.824s] symbolically linking /home/holberton/ros2_ws/build/test_publisher/package.xml -> /home/holberton/ros2_ws/install/test_publisher/share/test_publisher
+[7.164s] Invoked command in '/home/holberton/ros2_ws/build/test_publisher' returned '0': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/holberton/ros2_ws/build/test_publisher/build --no-deps symlink_data --force

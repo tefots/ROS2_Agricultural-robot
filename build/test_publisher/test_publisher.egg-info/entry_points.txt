@@ -1,0 +1,4 @@
+[console_scripts]
+goal_location = test_publisher.robot_navigation:main
+move_robot = test_publisher.robot_publisher:main
+

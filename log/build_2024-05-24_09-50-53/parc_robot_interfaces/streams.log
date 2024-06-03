@@ -1,0 +1,29 @@
+[0.152s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake /home/holberton/ros2_ws/src/parc_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/holberton/ros2_ws/install/parc_robot_interfaces
+[0.330s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.211s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.280s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.443s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.051s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[4.143s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.575s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.720s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.721s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.721s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.913s] -- Configuring done
+[7.135s] -- Generating done
+[7.147s] -- Build files have been written to: /home/holberton/ros2_ws/build/parc_robot_interfaces
+[7.201s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake /home/holberton/ros2_ws/src/parc_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/holberton/ros2_ws/install/parc_robot_interfaces
+[7.211s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_interfaces -- -j8 -l8
+[7.346s] [35m[1mConsolidate compiler generated dependencies of target parc_robot_interfaces__rosidl_generator_c[0m
+[7.380s] failed to create symbolic link '/home/holberton/ros2_ws/build/parc_robot_interfaces/ament_cmake_python/parc_robot_interfaces/parc_robot_interfaces' because existing path cannot be removed: Is a directory
+[7.386s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces] Error 1
+[7.387s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces.dir/all] Error 2
+[7.388s] gmake[1]: *** Waiting for unfinished jobs....
+[7.391s] [  3%] Built target parc_robot_interfaces__cpp
+[7.393s] [ 12%] Built target parc_robot_interfaces__rosidl_generator_c
+[7.400s] gmake: *** [Makefile:146: all] Error 2
+[7.409s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_interfaces -- -j8 -l8

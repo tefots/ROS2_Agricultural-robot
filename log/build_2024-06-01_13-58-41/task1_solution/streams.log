@@ -1,0 +1,20 @@
+[1.915s] Invoking command in '/home/holberton/ros2_ws/src/task1_solution': PYTHONPATH=/home/holberton/ros2_ws/build/task1_solution/prefix_override:/home/holberton/ros2_ws/install/task1_solution/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task1_solution build --build-base /home/holberton/ros2_ws/build/task1_solution/build install --record /home/holberton/ros2_ws/build/task1_solution/install.log --single-version-externally-managed install_data
+[2.342s] running egg_info
+[2.343s] writing ../../build/task1_solution/task1_solution.egg-info/PKG-INFO
+[2.343s] writing dependency_links to ../../build/task1_solution/task1_solution.egg-info/dependency_links.txt
+[2.343s] writing entry points to ../../build/task1_solution/task1_solution.egg-info/entry_points.txt
+[2.344s] writing requirements to ../../build/task1_solution/task1_solution.egg-info/requires.txt
+[2.344s] writing top-level names to ../../build/task1_solution/task1_solution.egg-info/top_level.txt
+[2.351s] reading manifest file '../../build/task1_solution/task1_solution.egg-info/SOURCES.txt'
+[2.352s] writing manifest file '../../build/task1_solution/task1_solution.egg-info/SOURCES.txt'
+[2.352s] running build
+[2.352s] running build_py
+[2.352s] running install
+[2.352s] running install_lib
+[2.353s] running install_data
+[2.353s] running install_egg_info
+[2.355s] removing '/home/holberton/ros2_ws/install/task1_solution/lib/python3.10/site-packages/task1_solution-0.0.0-py3.10.egg-info' (and everything under it)
+[2.355s] Copying ../../build/task1_solution/task1_solution.egg-info to /home/holberton/ros2_ws/install/task1_solution/lib/python3.10/site-packages/task1_solution-0.0.0-py3.10.egg-info
+[2.356s] running install_scripts
+[2.381s] writing list of installed files to '/home/holberton/ros2_ws/build/task1_solution/install.log'
+[2.423s] Invoked command in '/home/holberton/ros2_ws/src/task1_solution' returned '0': PYTHONPATH=/home/holberton/ros2_ws/build/task1_solution/prefix_override:/home/holberton/ros2_ws/install/task1_solution/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task1_solution build --build-base /home/holberton/ros2_ws/build/task1_solution/build install --record /home/holberton/ros2_ws/build/task1_solution/install.log --single-version-externally-managed install_data

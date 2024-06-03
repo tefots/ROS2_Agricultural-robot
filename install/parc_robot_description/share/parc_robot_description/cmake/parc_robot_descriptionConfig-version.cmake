@@ -1,0 +1,1 @@
+/home/holberton/ros2_ws/build/parc_robot_description/ament_cmake_core/parc_robot_descriptionConfig-version.cmake

@@ -1,0 +1,451 @@
+[3.409s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.410s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x709b9574abc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x709b9584b280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x709b9584b280>>, mixin_verb=('build',))
+[16.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[16.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[16.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[16.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[16.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[16.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[16.542s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/holberton/ros2_ws'
+[16.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[16.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[16.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[16.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[16.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[16.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[16.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[16.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[16.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[16.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[16.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[16.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[16.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[16.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[16.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extensions ['ignore', 'ignore_ament_install']
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extension 'ignore'
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extension 'ignore_ament_install'
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extensions ['colcon_pkg']
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extension 'colcon_pkg'
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extensions ['colcon_meta']
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extension 'colcon_meta'
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extensions ['ros']
+[16.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_nav) by extension 'ros'
+[16.674s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_nav' with type 'ros.ament_python' and name 'auto_nav'
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extensions ['ignore', 'ignore_ament_install']
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extension 'ignore'
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extension 'ignore_ament_install'
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extensions ['colcon_pkg']
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extension 'colcon_pkg'
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extensions ['colcon_meta']
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extension 'colcon_meta'
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extensions ['ros']
+[16.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot) by extension 'ros'
+[16.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parc_robot' with type 'ros.ament_cmake' and name 'parc_robot'
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extension 'ignore'
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extension 'ignore_ament_install'
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extensions ['colcon_pkg']
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extension 'colcon_pkg'
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extensions ['colcon_meta']
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extension 'colcon_meta'
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extensions ['ros']
+[16.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_bringup) by extension 'ros'
+[16.699s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parc_robot_bringup' with type 'ros.ament_cmake' and name 'parc_robot_bringup'
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extension 'ignore'
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extension 'ignore_ament_install'
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extensions ['colcon_pkg']
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extension 'colcon_pkg'
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extensions ['colcon_meta']
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extension 'colcon_meta'
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extensions ['ros']
+[16.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_description) by extension 'ros'
+[16.701s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parc_robot_description' with type 'ros.ament_cmake' and name 'parc_robot_description'
+[16.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[16.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extension 'ignore'
+[16.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extension 'ignore_ament_install'
+[16.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extensions ['colcon_pkg']
+[16.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extension 'colcon_pkg'
+[16.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extensions ['colcon_meta']
+[16.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extension 'colcon_meta'
+[16.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extensions ['ros']
+[16.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/parc_robot_interfaces) by extension 'ros'
+[16.702s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parc_robot_interfaces' with type 'ros.ament_cmake' and name 'parc_robot_interfaces'
+[16.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extensions ['ignore', 'ignore_ament_install']
+[16.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extension 'ignore'
+[16.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extension 'ignore_ament_install'
+[16.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extensions ['colcon_pkg']
+[16.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extension 'colcon_pkg'
+[16.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extensions ['colcon_meta']
+[16.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extension 'colcon_meta'
+[16.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extensions ['ros']
+[16.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extension 'ros'
+[16.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extensions ['cmake', 'python']
+[16.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extension 'cmake'
+[16.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extension 'python'
+[16.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extensions ['python_setup_py']
+[16.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/resources) by extension 'python_setup_py'
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extensions ['ignore', 'ignore_ament_install']
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extension 'ignore'
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extension 'ignore_ament_install'
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extensions ['colcon_pkg']
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extension 'colcon_pkg'
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extensions ['colcon_meta']
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extension 'colcon_meta'
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extensions ['ros']
+[16.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publisher) by extension 'ros'
+[16.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_publisher' with type 'ros.ament_python' and name 'test_publisher'
+[16.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[16.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[16.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[16.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[16.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[17.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[17.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[17.714s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/holberton/ros2_ws/install
+[17.715s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[17.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'cmake_args' from command line to 'None'
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'cmake_target' from command line to 'None'
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'cmake_clean_first' from command line to 'False'
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'cmake_force_configure' from command line to 'False'
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'ament_cmake_args' from command line to 'None'
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[18.135s] Level 5:colcon.colcon_core.verb:set package 'auto_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.135s] DEBUG:colcon.colcon_core.verb:Building package 'auto_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holberton/ros2_ws/build/auto_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holberton/ros2_ws/install/auto_nav', 'merge_install': False, 'path': '/home/holberton/ros2_ws/src/auto_nav', 'symlink_install': False, 'test_result_base': None}
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'cmake_args' from command line to 'None'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'cmake_target' from command line to 'None'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'cmake_clean_first' from command line to 'False'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'cmake_force_configure' from command line to 'False'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'ament_cmake_args' from command line to 'None'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.136s] DEBUG:colcon.colcon_core.verb:Building package 'parc_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holberton/ros2_ws/build/parc_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holberton/ros2_ws/install/parc_robot', 'merge_install': False, 'path': '/home/holberton/ros2_ws/src/parc_robot', 'symlink_install': False, 'test_result_base': None}
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'cmake_args' from command line to 'None'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'cmake_target' from command line to 'None'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[18.136s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.137s] DEBUG:colcon.colcon_core.verb:Building package 'parc_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holberton/ros2_ws/build/parc_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holberton/ros2_ws/install/parc_robot_description', 'merge_install': False, 'path': '/home/holberton/ros2_ws/src/parc_robot_description', 'symlink_install': False, 'test_result_base': None}
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[18.137s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.137s] DEBUG:colcon.colcon_core.verb:Building package 'parc_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holberton/ros2_ws/build/parc_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holberton/ros2_ws/install/parc_robot_interfaces', 'merge_install': False, 'path': '/home/holberton/ros2_ws/src/parc_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'cmake_args' from command line to 'None'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'cmake_target' from command line to 'None'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'test_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.138s] DEBUG:colcon.colcon_core.verb:Building package 'test_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holberton/ros2_ws/build/test_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holberton/ros2_ws/install/test_publisher', 'merge_install': False, 'path': '/home/holberton/ros2_ws/src/test_publisher', 'symlink_install': False, 'test_result_base': None}
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[18.138s] Level 5:colcon.colcon_core.verb:set package 'parc_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.138s] DEBUG:colcon.colcon_core.verb:Building package 'parc_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holberton/ros2_ws/build/parc_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holberton/ros2_ws/install/parc_robot_bringup', 'merge_install': False, 'path': '/home/holberton/ros2_ws/src/parc_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[18.138s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[18.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[18.140s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holberton/ros2_ws/src/parc_robot_description' with build type 'ament_cmake'
+[18.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holberton/ros2_ws/src/parc_robot_description'
+[18.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[18.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holberton/ros2_ws/src/parc_robot_interfaces' with build type 'ament_cmake'
+[18.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holberton/ros2_ws/src/parc_robot_interfaces'
+[18.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.446s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holberton/ros2_ws/src/auto_nav' with build type 'ament_python'
+[18.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_nav', 'ament_prefix_path')
+[18.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/hook/ament_prefix_path.ps1'
+[18.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/hook/ament_prefix_path.dsv'
+[18.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/hook/ament_prefix_path.sh'
+[18.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.638s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holberton/ros2_ws/src/parc_robot' with build type 'ament_cmake'
+[18.638s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holberton/ros2_ws/src/parc_robot'
+[18.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.642s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holberton/ros2_ws/src/test_publisher' with build type 'ament_python'
+[18.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_publisher', 'ament_prefix_path')
+[18.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/hook/ament_prefix_path.ps1'
+[18.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/hook/ament_prefix_path.dsv'
+[18.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/hook/ament_prefix_path.sh'
+[18.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/build/parc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_description -- -j8 -l8
+[18.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/build/parc_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_interfaces -- -j8 -l8
+[19.331s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holberton/ros2_ws/src/auto_nav'
+[19.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/build/parc_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot -- -j8 -l8
+[20.144s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holberton/ros2_ws/src/test_publisher'
+[20.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/build/parc_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot -- -j8 -l8
+[21.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/build/parc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_description -- -j8 -l8
+[21.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/build/parc_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot
+[21.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/build/parc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_description
+[21.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parc_robot)
+[21.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/build/parc_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot
+[21.997s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot' for CMake module files
+[21.998s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot' for CMake config files
+[21.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot', 'cmake_prefix_path')
+[21.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/hook/cmake_prefix_path.ps1'
+[22.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/hook/cmake_prefix_path.dsv'
+[22.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/hook/cmake_prefix_path.sh'
+[22.002s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot/bin'
+[22.003s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot/lib/pkgconfig/parc_robot.pc'
+[22.003s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot/lib/python3.10/site-packages'
+[22.004s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot/bin'
+[22.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.ps1'
+[22.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.dsv'
+[22.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.sh'
+[22.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.bash'
+[22.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.zsh'
+[22.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/parc_robot/share/colcon-core/packages/parc_robot)
+[22.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parc_robot_description)
+[22.139s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description' for CMake module files
+[22.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/build/parc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_description
+[22.142s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description' for CMake config files
+[22.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot_description', 'cmake_prefix_path')
+[22.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/hook/cmake_prefix_path.ps1'
+[22.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/hook/cmake_prefix_path.dsv'
+[22.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/hook/cmake_prefix_path.sh'
+[22.149s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description/bin'
+[22.149s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description/lib/pkgconfig/parc_robot_description.pc'
+[22.150s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description/lib/python3.10/site-packages'
+[22.151s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description/bin'
+[22.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.ps1'
+[22.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.dsv'
+[22.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.sh'
+[22.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.bash'
+[22.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.zsh'
+[22.156s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/parc_robot_description/share/colcon-core/packages/parc_robot_description)
+[22.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parc_robot)
+[22.177s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot' for CMake module files
+[22.178s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot' for CMake config files
+[22.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot', 'cmake_prefix_path')
+[22.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/hook/cmake_prefix_path.ps1'
+[22.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/hook/cmake_prefix_path.dsv'
+[22.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/hook/cmake_prefix_path.sh'
+[22.180s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot/bin'
+[22.180s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot/lib/pkgconfig/parc_robot.pc'
+[22.181s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot/lib/python3.10/site-packages'
+[22.181s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot/bin'
+[22.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.ps1'
+[22.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.dsv'
+[22.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.sh'
+[22.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.bash'
+[22.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.zsh'
+[22.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/parc_robot/share/colcon-core/packages/parc_robot)
+[22.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parc_robot_description)
+[22.185s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description' for CMake module files
+[22.186s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description' for CMake config files
+[22.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot_description', 'cmake_prefix_path')
+[22.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/hook/cmake_prefix_path.ps1'
+[22.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/hook/cmake_prefix_path.dsv'
+[22.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/hook/cmake_prefix_path.sh'
+[22.187s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description/bin'
+[22.187s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description/lib/pkgconfig/parc_robot_description.pc'
+[22.188s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description/lib/python3.10/site-packages'
+[22.188s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_description/bin'
+[22.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.ps1'
+[22.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.dsv'
+[22.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.sh'
+[22.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.bash'
+[22.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.zsh'
+[22.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/parc_robot_description/share/colcon-core/packages/parc_robot_description)
+[22.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/build/parc_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_interfaces -- -j8 -l8
+[22.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/build/parc_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_interfaces
+[23.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parc_robot_interfaces)
+[23.991s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces' for CMake module files
+[23.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/build/parc_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_interfaces
+[23.997s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces' for CMake config files
+[24.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot_interfaces', 'cmake_prefix_path')
+[24.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/cmake_prefix_path.ps1'
+[24.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/cmake_prefix_path.dsv'
+[24.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/cmake_prefix_path.sh'
+[24.014s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/lib'
+[24.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot_interfaces', 'ld_library_path_lib')
+[24.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/ld_library_path_lib.ps1'
+[24.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/ld_library_path_lib.dsv'
+[24.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/ld_library_path_lib.sh'
+[24.019s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/bin'
+[24.020s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/lib/pkgconfig/parc_robot_interfaces.pc'
+[24.020s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/lib/python3.10/site-packages'
+[24.021s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/bin'
+[24.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.ps1'
+[24.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.dsv'
+[24.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.sh'
+[24.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.bash'
+[24.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.zsh'
+[24.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/parc_robot_interfaces/share/colcon-core/packages/parc_robot_interfaces)
+[24.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parc_robot_interfaces)
+[24.162s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces' for CMake module files
+[24.164s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces' for CMake config files
+[24.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot_interfaces', 'cmake_prefix_path')
+[24.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/cmake_prefix_path.ps1'
+[24.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/cmake_prefix_path.dsv'
+[24.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/cmake_prefix_path.sh'
+[24.167s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/lib'
+[24.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot_interfaces', 'ld_library_path_lib')
+[24.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/ld_library_path_lib.ps1'
+[24.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/ld_library_path_lib.dsv'
+[24.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/hook/ld_library_path_lib.sh'
+[24.170s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/bin'
+[24.170s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/lib/pkgconfig/parc_robot_interfaces.pc'
+[24.170s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/lib/python3.10/site-packages'
+[24.171s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_interfaces/bin'
+[24.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.ps1'
+[24.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.dsv'
+[24.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.sh'
+[24.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.bash'
+[24.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_interfaces/share/parc_robot_interfaces/package.zsh'
+[24.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/parc_robot_interfaces/share/colcon-core/packages/parc_robot_interfaces)
+[24.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holberton/ros2_ws/src/parc_robot_bringup' with build type 'ament_cmake'
+[24.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holberton/ros2_ws/src/parc_robot_bringup'
+[24.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/build/parc_robot_bringup': CMAKE_PREFIX_PATH=/home/holberton/ros2_ws/install/parc_robot_interfaces:/home/holberton/ros2_ws/install/parc_robot_description:/home/holberton/ros2_ws/install/parc_robot_bringup:/home/holberton/ros2_ws/install/parc_robot:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_bringup -- -j8 -l8
+[25.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/build/parc_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/holberton/ros2_ws/install/parc_robot_interfaces:/home/holberton/ros2_ws/install/parc_robot_description:/home/holberton/ros2_ws/install/parc_robot_bringup:/home/holberton/ros2_ws/install/parc_robot:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_bringup -- -j8 -l8
+[25.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/build/parc_robot_bringup': CMAKE_PREFIX_PATH=/home/holberton/ros2_ws/install/parc_robot_interfaces:/home/holberton/ros2_ws/install/parc_robot_description:/home/holberton/ros2_ws/install/parc_robot_bringup:/home/holberton/ros2_ws/install/parc_robot:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_bringup
+[26.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/src/test_publisher': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_publisher build --build-base /home/holberton/ros2_ws/build/test_publisher/build install --record /home/holberton/ros2_ws/build/test_publisher/install.log --single-version-externally-managed install_data
+[26.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parc_robot_bringup)
+[26.124s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup' for CMake module files
+[26.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/build/parc_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/holberton/ros2_ws/install/parc_robot_interfaces:/home/holberton/ros2_ws/install/parc_robot_description:/home/holberton/ros2_ws/install/parc_robot_bringup:/home/holberton/ros2_ws/install/parc_robot:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_bringup
+[26.126s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup' for CMake config files
+[26.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot_bringup', 'cmake_prefix_path')
+[26.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/hook/cmake_prefix_path.ps1'
+[26.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/hook/cmake_prefix_path.dsv'
+[26.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/hook/cmake_prefix_path.sh'
+[26.129s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/lib'
+[26.130s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/bin'
+[26.130s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/lib/pkgconfig/parc_robot_bringup.pc'
+[26.130s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/lib/python3.10/site-packages'
+[26.130s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/bin'
+[26.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.ps1'
+[26.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.dsv'
+[26.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.sh'
+[26.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.bash'
+[26.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.zsh'
+[26.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/parc_robot_bringup/share/colcon-core/packages/parc_robot_bringup)
+[26.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holberton/ros2_ws/src/auto_nav': PYTHONPATH=/home/holberton/ros2_ws/build/auto_nav/prefix_override:/home/holberton/ros2_ws/install/auto_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_nav build --build-base /home/holberton/ros2_ws/build/auto_nav/build install --record /home/holberton/ros2_ws/build/auto_nav/install.log --single-version-externally-managed install_data
+[26.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parc_robot_bringup)
+[26.166s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup' for CMake module files
+[26.167s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup' for CMake config files
+[26.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('parc_robot_bringup', 'cmake_prefix_path')
+[26.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/hook/cmake_prefix_path.ps1'
+[26.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/hook/cmake_prefix_path.dsv'
+[26.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/hook/cmake_prefix_path.sh'
+[26.170s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/lib'
+[26.170s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/bin'
+[26.170s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/lib/pkgconfig/parc_robot_bringup.pc'
+[26.171s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/lib/python3.10/site-packages'
+[26.171s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/parc_robot_bringup/bin'
+[26.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.ps1'
+[26.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.dsv'
+[26.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.sh'
+[26.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.bash'
+[26.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/parc_robot_bringup/share/parc_robot_bringup/package.zsh'
+[26.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/parc_robot_bringup/share/colcon-core/packages/parc_robot_bringup)
+[26.666s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/test_publisher' for CMake module files
+[26.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/src/test_publisher' returned '0': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_publisher build --build-base /home/holberton/ros2_ws/build/test_publisher/build install --record /home/holberton/ros2_ws/build/test_publisher/install.log --single-version-externally-managed install_data
+[26.667s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/test_publisher' for CMake config files
+[26.668s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/test_publisher/lib'
+[26.668s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/test_publisher/bin'
+[26.668s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/test_publisher/lib/pkgconfig/test_publisher.pc'
+[26.668s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages'
+[26.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_publisher', 'pythonpath')
+[26.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/hook/pythonpath.ps1'
+[26.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/hook/pythonpath.dsv'
+[26.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/hook/pythonpath.sh'
+[26.671s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/test_publisher/bin'
+[26.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_publisher)
+[26.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/package.ps1'
+[26.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/package.dsv'
+[26.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/package.sh'
+[26.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/package.bash'
+[26.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/test_publisher/share/test_publisher/package.zsh'
+[26.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/test_publisher/share/colcon-core/packages/test_publisher)
+[26.689s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/auto_nav' for CMake module files
+[26.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holberton/ros2_ws/src/auto_nav' returned '0': PYTHONPATH=/home/holberton/ros2_ws/build/auto_nav/prefix_override:/home/holberton/ros2_ws/install/auto_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_nav build --build-base /home/holberton/ros2_ws/build/auto_nav/build install --record /home/holberton/ros2_ws/build/auto_nav/install.log --single-version-externally-managed install_data
+[26.690s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/auto_nav' for CMake config files
+[26.691s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/auto_nav/lib'
+[26.691s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/auto_nav/bin'
+[26.691s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/auto_nav/lib/pkgconfig/auto_nav.pc'
+[26.691s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/auto_nav/lib/python3.10/site-packages'
+[26.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_nav', 'pythonpath')
+[26.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/hook/pythonpath.ps1'
+[26.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/hook/pythonpath.dsv'
+[26.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/hook/pythonpath.sh'
+[26.693s] Level 1:colcon.colcon_core.environment:checking '/home/holberton/ros2_ws/install/auto_nav/bin'
+[26.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_nav)
+[26.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/package.ps1'
+[26.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/package.dsv'
+[26.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/package.sh'
+[26.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/package.bash'
+[26.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/holberton/ros2_ws/install/auto_nav/share/auto_nav/package.zsh'
+[26.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holberton/ros2_ws/install/auto_nav/share/colcon-core/packages/auto_nav)
+[26.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.697s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.697s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.697s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.752s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.753s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.753s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.768s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holberton/ros2_ws/install/local_setup.ps1'
+[26.791s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/holberton/ros2_ws/install/_local_setup_util_ps1.py'
+[26.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holberton/ros2_ws/install/setup.ps1'
+[26.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holberton/ros2_ws/install/local_setup.sh'
+[26.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/holberton/ros2_ws/install/_local_setup_util_sh.py'
+[26.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holberton/ros2_ws/install/setup.sh'
+[26.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holberton/ros2_ws/install/local_setup.bash'
+[26.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holberton/ros2_ws/install/setup.bash'
+[26.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holberton/ros2_ws/install/local_setup.zsh'
+[26.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holberton/ros2_ws/install/setup.zsh'

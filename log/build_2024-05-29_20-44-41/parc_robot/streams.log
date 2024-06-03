@@ -1,0 +1,21 @@
+[0.304s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot -- -j8 -l8
+[0.560s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot -- -j8 -l8
+[0.588s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot
+[0.598s] -- Install configuration: ""
+[0.599s] -- Execute custom install script
+[0.599s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/ament_index/resource_index/package_run_dependencies/parc_robot
+[0.600s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/ament_index/resource_index/parent_prefix_path/parc_robot
+[0.600s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/environment/ament_prefix_path.sh
+[0.600s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/environment/ament_prefix_path.dsv
+[0.601s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/environment/path.sh
+[0.601s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/environment/path.dsv
+[0.601s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/local_setup.bash
+[0.601s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/local_setup.sh
+[0.602s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/local_setup.zsh
+[0.602s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/local_setup.dsv
+[0.602s] -- Symlinking: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.dsv
+[0.613s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/ament_index/resource_index/packages/parc_robot
+[0.613s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/cmake/parc_robotConfig.cmake
+[0.613s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/cmake/parc_robotConfig-version.cmake
+[0.613s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot/share/parc_robot/package.xml
+[0.616s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot

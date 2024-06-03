@@ -1,0 +1,25 @@
+[6.337s] Invoking command in '/home/holberton/ros2_ws/src/test_publisher': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_publisher build --build-base /home/holberton/ros2_ws/build/test_publisher/build install --record /home/holberton/ros2_ws/build/test_publisher/install.log --single-version-externally-managed install_data
+[6.586s] running egg_info
+[6.586s] writing ../../build/test_publisher/test_publisher.egg-info/PKG-INFO
+[6.599s] writing dependency_links to ../../build/test_publisher/test_publisher.egg-info/dependency_links.txt
+[6.599s] writing entry points to ../../build/test_publisher/test_publisher.egg-info/entry_points.txt
+[6.600s] writing requirements to ../../build/test_publisher/test_publisher.egg-info/requires.txt
+[6.600s] writing top-level names to ../../build/test_publisher/test_publisher.egg-info/top_level.txt
+[6.602s] reading manifest file '../../build/test_publisher/test_publisher.egg-info/SOURCES.txt'
+[6.624s] writing manifest file '../../build/test_publisher/test_publisher.egg-info/SOURCES.txt'
+[6.624s] running build
+[6.624s] running build_py
+[6.625s] copying test_publisher/robot_navigation.py -> /home/holberton/ros2_ws/build/test_publisher/build/lib/test_publisher
+[6.644s] running install
+[6.644s] running install_lib
+[6.686s] copying /home/holberton/ros2_ws/build/test_publisher/build/lib/test_publisher/robot_navigation.py -> /home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test_publisher
+[6.686s] byte-compiling /home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test_publisher/robot_navigation.py to robot_navigation.cpython-310.pyc
+[6.687s] running install_data
+[6.687s] running install_egg_info
+[6.689s] removing '/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[6.689s] Copying ../../build/test_publisher/test_publisher.egg-info to /home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test_publisher-0.0.0-py3.10.egg-info
+[6.713s] running install_scripts
+[6.732s] Installing goal_location script to /home/holberton/ros2_ws/install/test_publisher/lib/test_publisher
+[6.746s] Installing move_robot script to /home/holberton/ros2_ws/install/test_publisher/lib/test_publisher
+[6.746s] writing list of installed files to '/home/holberton/ros2_ws/build/test_publisher/install.log'
+[6.776s] Invoked command in '/home/holberton/ros2_ws/src/test_publisher' returned '0': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_publisher build --build-base /home/holberton/ros2_ws/build/test_publisher/build install --record /home/holberton/ros2_ws/build/test_publisher/install.log --single-version-externally-managed install_data

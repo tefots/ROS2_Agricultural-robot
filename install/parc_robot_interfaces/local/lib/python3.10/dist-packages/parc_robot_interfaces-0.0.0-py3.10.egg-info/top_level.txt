@@ -1,0 +1,1 @@
+/home/holberton/ros2_ws/build/parc_robot_interfaces/ament_cmake_python/parc_robot_interfaces/parc_robot_interfaces.egg-info/top_level.txt

@@ -1,0 +1,51 @@
+[0.155s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_description -- -j8 -l8
+[1.403s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_description -- -j8 -l8
+[1.467s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_description
+[1.604s] -- Install configuration: ""
+[1.702s] -- Execute custom install script
+[2.027s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/launch/description_launch.py
+[2.039s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/launch/robot_state_publisher_launch.py
+[2.149s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/ZED2.dae
+[2.162s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/base_link.dae
+[2.167s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/enclosure.dae
+[2.173s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/enclosure_with_overhang.dae
+[2.173s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/enclosure_with_overhang.stl
+[2.174s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/seeder.stl
+[2.191s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/seeder_v1.stl
+[2.192s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/wheel_type1.dae
+[2.195s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/wheel_type2.dae
+[2.199s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/ydlidar.dae
+[2.200s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/attachment.xacro
+[2.203s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/enclosure.xacro
+[2.203s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/gps.xacro
+[2.203s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/inertial_macros.xacro
+[2.204s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/parc_robot.xacro
+[2.204s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/parc_robot_gazebo.xacro
+[2.204s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/scout_wheel.gazebo
+[2.205s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/scout_wheel_type1.xacro
+[2.205s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/scout_wheel_type2.xacro
+[2.205s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/sensors.xacro
+[2.206s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/side_cameras.xacro
+[2.206s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/ydlidar.xacro
+[2.207s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/zed2.xacro
+[2.207s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/rviz/description.rviz
+[2.216s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/scripts/.vscode/c_cpp_properties.json
+[2.239s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/scripts/.vscode/settings.json
+[2.241s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/scripts/dirty_metal.material
+[2.258s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/textures/dirty_metal.jpg
+[2.259s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/ament_index/resource_index/package_run_dependencies/parc_robot_description
+[2.282s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/ament_index/resource_index/parent_prefix_path/parc_robot_description
+[2.297s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/environment/ament_prefix_path.sh
+[2.298s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/environment/ament_prefix_path.dsv
+[2.301s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/environment/path.sh
+[2.302s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/environment/path.dsv
+[2.303s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/local_setup.bash
+[2.305s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/local_setup.sh
+[2.314s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/local_setup.zsh
+[2.315s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/local_setup.dsv
+[2.315s] -- Symlinking: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.dsv
+[2.367s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/ament_index/resource_index/packages/parc_robot_description
+[2.383s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/cmake/parc_robot_descriptionConfig.cmake
+[2.401s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/cmake/parc_robot_descriptionConfig-version.cmake
+[2.403s] -- Up-to-date symlink: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.xml
+[2.522s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_description

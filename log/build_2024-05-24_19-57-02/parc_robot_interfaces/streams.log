@@ -1,0 +1,15 @@
+[0.090s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_interfaces -- -j8 -l8
+[0.323s] [  3%] Built target parc_robot_interfaces__cpp
+[0.336s] failed to create symbolic link '/home/holberton/ros2_ws/build/parc_robot_interfaces/ament_cmake_python/parc_robot_interfaces/parc_robot_interfaces' because existing path cannot be removed: Is a directory
+[0.344s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces] Error 1
+[0.345s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces.dir/all] Error 2
+[0.346s] gmake[1]: *** Waiting for unfinished jobs....
+[0.363s] [ 12%] Built target parc_robot_interfaces__rosidl_generator_c
+[0.398s] [35m[1mConsolidate compiler generated dependencies of target parc_robot_interfaces__rosidl_typesupport_cpp[0m
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target parc_robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target parc_robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.450s] [ 22%] Built target parc_robot_interfaces__rosidl_typesupport_cpp
+[0.454s] [ 32%] Built target parc_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.465s] [ 41%] Built target parc_robot_interfaces__rosidl_typesupport_introspection_cpp
+[0.473s] gmake: *** [Makefile:146: all] Error 2
+[1.346s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_interfaces -- -j8 -l8

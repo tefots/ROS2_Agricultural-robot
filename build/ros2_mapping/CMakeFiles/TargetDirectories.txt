@@ -1,0 +1,9 @@
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/uninstall.dir
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/ros2_mapping_uninstall.dir
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/test.dir
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/edit_cache.dir
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/rebuild_cache.dir
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/list_install_components.dir
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/install.dir
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/install/local.dir
+/home/holberton/ros2_ws/build/ros2_mapping/CMakeFiles/install/strip.dir

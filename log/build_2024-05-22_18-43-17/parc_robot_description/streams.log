@@ -1,0 +1,79 @@
+[0.023s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/opt/ros/humble /usr/bin/cmake /home/holberton/ros2_ws/src/parc_robot_description -DCMAKE_INSTALL_PREFIX=/home/holberton/ros2_ws/install/parc_robot_description
+[1.118s] -- The C compiler identification is GNU 11.4.0
+[2.222s] -- The CXX compiler identification is GNU 11.4.0
+[2.289s] -- Detecting C compiler ABI info
+[2.528s] -- Detecting C compiler ABI info - done
+[2.534s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.535s] -- Detecting C compile features
+[2.560s] -- Detecting C compile features - done
+[2.576s] -- Detecting CXX compiler ABI info
+[2.688s] -- Detecting CXX compiler ABI info - done
+[2.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.695s] -- Detecting CXX compile features
+[2.695s] -- Detecting CXX compile features - done
+[2.698s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.902s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.022s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[3.073s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[3.134s] -- Configuring done
+[3.137s] -- Generating done
+[3.138s] -- Build files have been written to: /home/holberton/ros2_ws/build/parc_robot_description
+[3.145s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/opt/ros/humble /usr/bin/cmake /home/holberton/ros2_ws/src/parc_robot_description -DCMAKE_INSTALL_PREFIX=/home/holberton/ros2_ws/install/parc_robot_description
+[3.145s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_description -- -j8 -l8
+[3.312s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_description -- -j8 -l8
+[3.341s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_description
+[3.348s] -- Install configuration: ""
+[3.348s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/launch
+[3.348s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/launch/robot_state_publisher_launch.py
+[3.348s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/launch/description_launch.py
+[3.348s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes
+[3.348s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/ydlidar.dae
+[3.351s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/enclosure_with_overhang.stl
+[3.401s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/enclosure.dae
+[3.438s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/ZED2.dae
+[3.438s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/seeder_v1.stl
+[3.439s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/enclosure_with_overhang.dae
+[3.442s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/wheel_type1.dae
+[3.446s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/wheel_type2.dae
+[3.449s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/base_link.dae
+[3.463s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/meshes/seeder.stl
+[3.465s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf
+[3.465s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/scout_wheel.gazebo
+[3.465s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/zed2.xacro
+[3.465s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/parc_robot.xacro
+[3.465s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/scout_wheel_type1.xacro
+[3.465s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/enclosure.xacro
+[3.465s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/side_cameras.xacro
+[3.465s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/ydlidar.xacro
+[3.466s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/gps.xacro
+[3.466s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/attachment.xacro
+[3.466s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/sensors.xacro
+[3.466s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/parc_robot_gazebo.xacro
+[3.466s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/scout_wheel_type2.xacro
+[3.466s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/urdf/inertial_macros.xacro
+[3.467s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/rviz
+[3.467s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/rviz/description.rviz
+[3.467s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials
+[3.467s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/scripts
+[3.467s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/scripts/.vscode
+[3.467s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/scripts/.vscode/settings.json
+[3.467s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/scripts/.vscode/c_cpp_properties.json
+[3.468s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/scripts/dirty_metal.material
+[3.468s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/textures
+[3.468s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/materials/textures/dirty_metal.jpg
+[3.469s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/ament_index/resource_index/package_run_dependencies/parc_robot_description
+[3.469s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/ament_index/resource_index/parent_prefix_path/parc_robot_description
+[3.469s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/environment/ament_prefix_path.sh
+[3.470s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/environment/ament_prefix_path.dsv
+[3.470s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/environment/path.sh
+[3.470s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/environment/path.dsv
+[3.470s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/local_setup.bash
+[3.470s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/local_setup.sh
+[3.470s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/local_setup.zsh
+[3.471s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/local_setup.dsv
+[3.471s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.dsv
+[3.471s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/ament_index/resource_index/packages/parc_robot_description
+[3.471s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/cmake/parc_robot_descriptionConfig.cmake
+[3.471s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/cmake/parc_robot_descriptionConfig-version.cmake
+[3.471s] -- Installing: /home/holberton/ros2_ws/install/parc_robot_description/share/parc_robot_description/package.xml
+[3.474s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/opt/ros/humble /usr/bin/cmake --install /home/holberton/ros2_ws/build/parc_robot_description

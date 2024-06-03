@@ -1,0 +1,14 @@
+[0.125s] Invoking command in '/home/holberton/ros2_ws/build/parc_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_interfaces -- -j8 -l8
+[1.486s] [  3%] Built target parc_robot_interfaces__cpp
+[1.488s] [ 12%] Built target parc_robot_interfaces__rosidl_generator_c
+[1.491s] [ 22%] Built target parc_robot_interfaces__rosidl_typesupport_introspection_cpp
+[1.492s] [ 32%] Built target parc_robot_interfaces__rosidl_typesupport_fastrtps_c
+[1.496s] [ 41%] Built target parc_robot_interfaces__rosidl_typesupport_cpp
+[1.499s] [ 51%] Built target parc_robot_interfaces__rosidl_typesupport_introspection_c
+[1.501s] [ 61%] Built target parc_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.505s] failed to create symbolic link '/home/holberton/ros2_ws/build/parc_robot_interfaces/ament_cmake_python/parc_robot_interfaces/parc_robot_interfaces' because existing path cannot be removed: Is a directory
+[1.506s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces] Error 1
+[1.508s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces.dir/all] Error 2
+[1.510s] gmake[1]: *** Waiting for unfinished jobs....
+[1.512s] gmake: *** [Makefile:146: all] Error 2
+[1.525s] Invoked command in '/home/holberton/ros2_ws/build/parc_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holberton/ros2_ws/install/test_publisher:/home/holberton/ros2_ws/install/auto_nav:/opt/ros/humble /usr/bin/cmake --build /home/holberton/ros2_ws/build/parc_robot_interfaces -- -j8 -l8

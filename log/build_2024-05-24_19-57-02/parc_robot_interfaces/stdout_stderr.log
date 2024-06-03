@@ -1,0 +1,13 @@
+[  3%] Built target parc_robot_interfaces__cpp
+failed to create symbolic link '/home/holberton/ros2_ws/build/parc_robot_interfaces/ament_cmake_python/parc_robot_interfaces/parc_robot_interfaces' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_parc_robot_interfaces.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 12%] Built target parc_robot_interfaces__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target parc_robot_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target parc_robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target parc_robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 22%] Built target parc_robot_interfaces__rosidl_typesupport_cpp
+[ 32%] Built target parc_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target parc_robot_interfaces__rosidl_typesupport_introspection_cpp
+gmake: *** [Makefile:146: all] Error 2

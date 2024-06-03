@@ -1,0 +1,3 @@
+[console_scripts]
+auto_robot = auto_nav.task1_solution:main
+

@@ -1,0 +1,1 @@
+/home/holberton/ros2_ws/build/parc_robot_interfaces/rosidl_generator_py/parc_robot_interfaces/_parc_robot_interfaces_s.ep.rosidl_typesupport_c.c

@@ -1,0 +1,1 @@
+/home/holberton/ros2_ws/build/parc_robot/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,17 @@
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/launch/online_async_launch.py
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/config/mapper_params_online_async.yaml
+/home/holberton/ros2_ws/install/ros2_mapping/share/ament_index/resource_index/package_run_dependencies/ros2_mapping
+/home/holberton/ros2_ws/install/ros2_mapping/share/ament_index/resource_index/parent_prefix_path/ros2_mapping
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/ament_prefix_path.sh
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/ament_prefix_path.dsv
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/path.sh
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/path.dsv
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.bash
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.sh
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.zsh
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.dsv
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/package.dsv
+/home/holberton/ros2_ws/install/ros2_mapping/share/ament_index/resource_index/packages/ros2_mapping
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/cmake/ros2_mappingConfig.cmake
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/cmake/ros2_mappingConfig-version.cmake
+/home/holberton/ros2_ws/install/ros2_mapping/share/ros2_mapping/package.xml

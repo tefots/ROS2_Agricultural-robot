@@ -1,0 +1,5 @@
+[0.632s] Invoking command in '/home/holberton/ros2_ws/build/test_publisher': PYTHONPATH=/home/holberton/ros2_ws/build/test_publisher/prefix_override:/home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/holberton/ros2_ws/build/test_publisher/build
+[0.857s] running develop
+[0.858s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.858s]   warnings.warn(
+[1.013s] Removing /home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test-publisher.egg-link (link to .)

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing test_publisher.egg-info/PKG-INFO
+writing dependency_links to test_publisher.egg-info/dependency_links.txt
+writing entry points to test_publisher.egg-info/entry_points.txt
+writing requirements to test_publisher.egg-info/requires.txt
+writing top-level names to test_publisher.egg-info/top_level.txt
+reading manifest file 'test_publisher.egg-info/SOURCES.txt'
+writing manifest file 'test_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/holberton/ros2_ws/install/test_publisher/lib/python3.10/site-packages/test-publisher.egg-link (link to .)
+Installing move_robot script to /home/holberton/ros2_ws/install/test_publisher/lib/test_publisher
+
+Installed /home/holberton/ros2_ws/build/test_publisher
+running symlink_data
+symbolically linking /home/holberton/ros2_ws/build/test_publisher/resource/test_publisher -> /home/holberton/ros2_ws/install/test_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/holberton/ros2_ws/build/test_publisher/package.xml -> /home/holberton/ros2_ws/install/test_publisher/share/test_publisher
